@@ -1,4 +1,4 @@
-package bplsutree
+package bplustree
 
 func (bptree *BPTree) insert(rc *record) bool {
 	if bptree.Empty() {

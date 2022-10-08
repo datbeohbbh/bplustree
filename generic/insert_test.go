@@ -1,4 +1,4 @@
-package bplsutree
+package bplustree
 
 import (
 	"fmt"
@@ -36,7 +36,7 @@ func TestInsert(t *testing.T) {
 	rand.Seed(time.Now().UnixNano())
 	st := time.Now()
 	rcList := []*record{}
-	for i := 0; i <= 1000000; i++ {
+	for i := 0; i <= 10000000; i++ {
 		val := rand.Int31n(MAX_VALUE)
 		rc := &record{
 			key:   []byte(fmt.Sprintf("get value = %d at time = %v", val, time.Now())),

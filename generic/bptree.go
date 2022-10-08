@@ -1,6 +1,6 @@
-package bplsutree
+package bplustree
 
-const branchFactor int = 10
+const branchFactor int = 100
 
 type BPTree struct {
 	rootNode *node

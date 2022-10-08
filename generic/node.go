@@ -1,4 +1,4 @@
-package bplsutree
+package bplustree
 
 import vector "github.com/datbeohbbh/go-utils/vector"
 
